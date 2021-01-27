@@ -1480,6 +1480,13 @@ a {
 a:hover {
   color: #49b1f5;
 }
+#site-title,
+#site-subtitle,
+#site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
+  font-family: Fira Code;
+}
 .is-center {
   text-align: center;
 }
@@ -1694,7 +1701,7 @@ blockquote footer cite:before {
 #article-container pre,
 #article-container code {
   font-size: 14px;
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: Fira Code !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
@@ -2600,6 +2607,7 @@ blockquote footer cite:before {
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
+  font-family: Fira Code;
 }
 @media screen and (max-width: 768px) {
   #error-wrap .error-content .error-info {
